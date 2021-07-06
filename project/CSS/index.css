@@ -1,0 +1,65 @@
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3, .flex-dice-row-1, .flex-dice-row-2, .flex-dice-row-3{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+ 
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background-image: url('../images/table.png'); 
+    color: white;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+.flex-box-container-1 div{
+    padding: 10px;
+    
+    
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6{
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+}
+
+#flex-box-result{
+    border: 1px solid black;
+    box-shadow: black;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
